@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const Container = styled.div`
     width:100%;
     heigth:100%;
-    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 13px 5px rgba(0,0,0,0); 
-    box-shadow: 0px 5px 13px -7px #000000, 5px 5px 13px 5px rgba(0,0,0,0);
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.051));
+    border-bottom:1px solid  rgb(0, 0, 0, 0.051);
 `;
 
 export const Content = styled.div`
